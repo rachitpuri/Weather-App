@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <!-- <item
+        android:id="@+id/change_city"
+        android:orderInCategory="1"
+        android:title="@string/change_city"
+        android:showAsAction="never" />  -->
+     
+     <item android:id="@+id/menuRefresh"
+         android:icon="@drawable/refresh"
+         android:title="@string/menu_refresh"
+         android:alphabeticShortcut="r"
+         android:orderInCategory="1" 
+         android:showAsAction="always" />
+     
+     
+      <!-- <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/refresh"/>   -->
+    
+    
+  <item android:id="@+id/search"
+        android:title="@string/search_hint"
+        android:icon="@drawable/ic_menu_search"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+        
+</menu>
